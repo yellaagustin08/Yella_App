@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SenzoeApp</string>
+
+    <string name="txthello"> Hallo World </string>
+
+    <string name="textButton">Ganti Gambar</string>
+
+    <string name="pindahbutton">Pindah kehalaman movies</string>
+    <string name="api_key">2c4b5c9b12e7a1db6242337110576436</string>
+
+    <string name="buttonGanti">Button Ganti</string>
+
+</resources>
+
