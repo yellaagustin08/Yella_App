@@ -1,4 +1,4 @@
-package com.example.senzoeapp.adapter
+package com.example.yella_app.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.senzoeapp.R
-import com.example.senzoeapp.models.Result
+import com.example.yella_app.R
+import com.example.yella_app.models.Result
 
 //import kotlin.android.synthetic.main.adapter_movie.view.*
 class MainAdapter(val movies: List<Result>): RecyclerView.Adapter<MoviesViewHolder>() {

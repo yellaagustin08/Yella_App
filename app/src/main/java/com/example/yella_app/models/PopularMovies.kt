@@ -1,4 +1,4 @@
-package com.example.senzoeapp.models
+package com.example.yella_app.models
 
 data class PopularMovies(
     val results: List<Result>

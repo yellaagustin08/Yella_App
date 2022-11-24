@@ -1,6 +1,6 @@
-package com.example.senzoeapp.`interface`
+package com.example.yella_app.`interface`
 
-import com.example.senzoeapp.models.PopularMovies
+import com.example.yella_app.models.PopularMovies
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

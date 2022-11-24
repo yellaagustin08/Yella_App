@@ -1,4 +1,4 @@
-package com.example.senzoeapp
+package com.example.yella_app
 
 import org.junit.Test
 

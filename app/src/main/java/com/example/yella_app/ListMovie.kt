@@ -1,4 +1,4 @@
-package com.example.senzoeapp
+package com.example.yella_app
 
 
 import android.os.Bundle
@@ -7,10 +7,10 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.senzoeapp.`interface`.TmdbEndpoints
-import com.example.senzoeapp.adapter.MainAdapter
-import com.example.senzoeapp.models.PopularMovies
-import com.example.senzoeapp.services.ServiceBuilder
+import com.example.yella_app.`interface`.TmdbEndpoints
+import com.example.yella_app.adapter.MainAdapter
+import com.example.yella_app.models.PopularMovies
+import com.example.yella_app.services.ServiceBuilder
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

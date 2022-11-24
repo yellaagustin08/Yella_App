@@ -1,4 +1,4 @@
-package com.example.senzoeapp
+package com.example.yella_app
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -68,7 +68,7 @@ private fun ubahTeks () {
 
 
 
-    fun pindahPage(view:View){
+    fun pindahPage(view:View ) {
         val intent = Intent(this, ListMovie::class.java).apply {
             // putExtra(, message)
         }
