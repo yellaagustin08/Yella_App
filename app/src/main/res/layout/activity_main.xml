@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18"
+        app:layout_constraintVertical_bias="0.124"
         tools:ignore="HardcodedText" />
 
     <ImageView
@@ -29,9 +29,10 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446"
+        app:layout_constraintVertical_bias="0.345"
         app:srcCompat="@drawable/gambar1"
         tools:ignore="ContentDescription" />
+
 
     <TextView
         android:id="@+id/txtdadu2"
@@ -43,7 +44,7 @@
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748"
+        app:layout_constraintVertical_bias="0.672"
         tools:ignore="HardcodedText" />
 
     <ImageView
@@ -52,13 +53,12 @@
         android:layout_height="151dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.817"
+        app:layout_constraintVertical_bias="0.683"
         app:srcCompat="@drawable/gambar2"
         tools:ignore="ContentDescription" />
-
 
     <TextView
         android:id="@+id/txtdadu3"
@@ -70,7 +70,7 @@
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459"
+        app:layout_constraintVertical_bias="0.38"
         tools:ignore="HardcodedText" />
 
     <ImageView
@@ -79,10 +79,10 @@
         android:layout_height="153dp"
         app:layout_constraintBottom_toTopOf="@+id/txtdadu3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264"
+        app:layout_constraintVertical_bias="0.02"
         app:srcCompat="@drawable/gambar3"
         tools:ignore="ContentDescription" />
 
@@ -95,7 +95,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.827" />
 
     <Button
         android:id="@+id/buttonPindah"
@@ -107,12 +107,12 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textButton"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.974"
-        tools:visibility="visible"
-        tools:ignore="UsingOnClickInXml" />
+        tools:ignore="UsingOnClickInXml"
+        tools:visibility="visible" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
